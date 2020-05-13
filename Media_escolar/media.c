@@ -12,7 +12,9 @@ int main()
            mediaClasse = 0;
 
     printf("************************************\n");
-    printf("*   Gerenciador escolar            *\n");
+    printf("                                    \n");
+    printf("         Gerenciador escolar        \n");
+    printf("                                    \n");
     printf("************************************\n");
 
     printf("\nDigite a quantidade de alunos: ");
@@ -33,18 +35,18 @@ int main()
 
         mediaAluno = (double)(nota1 + nota2) / 2;
 
-        if (mediaAluno < 3.0)
+        if (mediaAluno <= 3.0)
         {
             printf("O aluno %d foi reprovado, sua média final é: %.2f\n", i, mediaAluno);
             reprovados++;
         }
-        else if (mediaAluno >= 3.0 && mediaAluno < 7.0)
+        else if (mediaAluno > 3.0 && mediaAluno <= 7.0)
         {
             printf("O aluno %d deverá ser conduzido à P3, sua média final é: %.2f\n", i, mediaAluno);
             recuperacao++;
         }
 
-        else if (mediaAluno >= 7.0)
+        else if (mediaAluno > 7.0)
         {
             printf("O aluno %d foi aprovado, sua média final é: %.2f\n", i, mediaAluno);
             aprovados++;
