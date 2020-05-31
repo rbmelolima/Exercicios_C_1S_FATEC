@@ -83,12 +83,13 @@ main()
     media += (double)(note) / 4;
   }
 
-  if (media > 5)  
+  if (media > 5)
     printf("Aprovado");
-  
-  else  
-    printf("Reprovado");  
+
+  else
+    printf("Reprovado");
 
   printf("Média %f", media);
 }
 #endif
+
