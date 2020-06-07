@@ -4,7 +4,8 @@
 ## Lista de exercícios de algoritmos - FATEC Rubens Lara
 
 ### Lista 1
-[Link para a lista 1]()
+[Link para a lista 1](listasdeExercicios/Lista1/Lista1Algoritmos.pdf)
+[Link para a lista 1 - complementar](listasdeExercicios/Lista1/lista1-complementar.docx)
 
 1. Ler um número inteiro e imprimir seu sucessor e seu antecessor.
 
@@ -37,7 +38,7 @@
 10. Receba dois números, o primeiro deve ser maior que 10 e menor que 25, o segundo deve ser maior ou igual a zero, o terceiro deve ser a soma dos dois primeiros e o quarto é o produto dos três números anteriores. Calcule e exiba a soma dos quadrados de cada um dos quatro números. Caso o resultado seja menor que 50000, solicite novos dados.
 
 ### Lista 2
-[Link para a lista 2]()
+[Link para a lista 2](listasdeExercicios/Lista2/Lista2Algoritmos.pdf)
 
 1. Gere e exiba cada uma das seqüências abaixo com uma quantidade k de termos determinados pelo usuário.
 
@@ -70,7 +71,7 @@ OBS: H deve ser maior ou igual a 15.
 
 
 ### Lista 3
-[Link para a lista 3]()
+[Link para a lista 3](listasdeExercicios/Lista3/Lista3Algoritmos.pdf)
 
 1. Mostre todos os números ímpares de 1 até 100. Utilize o laço while.
 
