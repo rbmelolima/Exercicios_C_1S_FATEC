@@ -1,14 +1,7 @@
 #include <stdio.h>
-#define ex6
+#define ex0lista2
 
-#ifdef ex0
-/*
-Solicite ao usuario a quantidade de numeros desejada representada x.
-
-A variavel num representa cada numero par digitado pelo usuário.
-
-Exiba o maior numero par digitado.
-*/
+#ifdef ex0lista2
 main()
 {
   int quantity, num, maior = 0, cont;
@@ -40,7 +33,7 @@ main()
 }
 #endif
 
-#ifdef ex8
+#ifdef ex8lista2
 main()
 {
   int people = 0;
@@ -62,7 +55,7 @@ main()
 }
 #endif
 
-#ifdef ex7
+#ifdef ex7lista2
 main()
 {
   int terms = 0;
@@ -80,15 +73,15 @@ main()
     if (i == 0)
       product = number;
 
-    else    
-      product *= number;    
+    else
+      product *= number;
   }
 
   printf("\nProdutos: %2.f", product);
 }
 #endif
 
-#ifdef ex6
+#ifdef ex6lista2
 main()
 {
   int terms = 0;
@@ -109,4 +102,32 @@ main()
 
   printf("\nDivisiveis por 7: %i", divisible7);
 }
+#endif
+
+#ifdef ex3lista2
+
+main()
+{
+  int age = 0, sum = 0, number = 0;
+
+  printf("Digite o numero de pessoas: ");
+  scanf("%i", &number);
+
+  while (number <= 0)
+  {
+    printf("\nDigite o numero de pessoas: ");
+    scanf("%i", &number);
+  }
+
+  for (int i = 0; i < number; i++)
+  {
+    printf("\nDigite a idade %i: ", i + 1);
+    scanf("%i", &age);
+
+    sum += age;
+  }
+
+  printf("\nSoma das idades:  %i: ", sum);
+}
+
 #endif
