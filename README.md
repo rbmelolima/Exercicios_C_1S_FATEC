@@ -1,5 +1,4 @@
-# Plutão
-> Durante décadas, Plutão foi considerado um planeta do sistema solar. Contudo, em agosto de 2006, a União Astronômica Internacional (IAU) classificou esse corpo celeste como um dos três planetas anões: Ceres, Eris e Plutão. Essa decisão foi motivada pelas características de Plutão, em especial pela sua forma e tamanho.
+# Exercícios 1º Semestre - FATEC Rubens Lara
 
 ## Lista de exercícios de algoritmos - FATEC Rubens Lara
 
