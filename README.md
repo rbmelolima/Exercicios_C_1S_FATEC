@@ -3,7 +3,7 @@
 ## Sobre
 Atividades feitas durante o 1º semestre letivo na Fatec Rubens Lara.
 
-## Indíce
+## Sumário
 - [Lista 1](./material/listas/Lista1Algoritmos.pdf)
 
 - [Lista 1 - Complementar](./material/listas/Lista1-complementar.DOCX)
